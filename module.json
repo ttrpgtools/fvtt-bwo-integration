@@ -5,7 +5,7 @@
   "description": "Roll into Foundry directly from Brighter Worlds Online",
   "version": "#{VERSION}#",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "manifestPlusVersion": "#{VERSION}#",
   "compatibility": {
     "minimum": 10,
     "verified": 12
@@ -26,13 +26,7 @@
     "scripts/lib/bus.js",
     "scripts/lib/bus-frame.js"
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
+  "languages": [],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
